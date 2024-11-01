@@ -8,6 +8,7 @@ export default function Main() {
             <div className={style.box}>
                 <h1 className={style.heading}>Growtopia Automation Script</h1>
                 <TypeAnimation
+                    className={style.description}
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
                         'Welcome to the ultimate resource for Growtopia enthusiasts!',
@@ -19,7 +20,7 @@ export default function Main() {
                     ]}
                     wrapper="div"
                     speed={60}
-                    style={{ fontSize: '1.3rem', display: 'inline-block', textAlign: 'center' }}
+                    style={{ fontSize: '1.1rem', display: 'inline-block', textAlign: 'center' }}
                     repeat={Infinity}
                 />
                 <h3 className={style.button}>Scroll down <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, -1, 0, 0)">
