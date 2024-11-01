@@ -46,3 +46,10 @@
     50% { transform: translateY(-5px); }
     100% { transform: translateY(0); }
 }
+
+@media screen and (max-width: 768px) {
+    .box .heading {
+        font-size: 1.5rem;
+    }
+    
+}
